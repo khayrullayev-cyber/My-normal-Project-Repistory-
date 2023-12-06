@@ -1,0 +1,621 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+.conteiner {
+    width: 100%;
+    height: 100%;
+}
+
+.conteiner .content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.conteiner .content .nav {
+    width: 100%;
+    height: 65px;
+    /* border: 1px solid #000; */
+    background: #656565;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.conteiner .content .nav .logo {
+    width: 54px;
+    height: 54px;
+    flex-shrink: 0;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+
+.conteiner .content .nav .link {
+    color: #FFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.conteiner .content .nav .link a {
+    color: #FFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.conteiner .content .nav .nodiv {
+    width: 50%;
+    height: 65px;
+}
+
+.conteiner .content .nav .menu {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    color: #FFF;
+}
+
+.conteiner .content .nav .menu i {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 24px;
+}
+
+.conteiner .content .nav .acc {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    color: #FFF;
+}
+
+.conteiner .content .nav .acc i {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 24px;
+}
+
+.conteiner .content .header {
+    width: 100%;
+    height: 575px;
+    /* border: 1px solid #000; */
+    background: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.conteiner .content .header .text {
+    width: 60%;
+    height: 100px;
+    /* border: 1px solid #000; */
+}
+
+.conteiner .content .header .text p {
+    color: #FFF;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.conteiner .content .fourpic {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    position: absolute;
+    top: 490px;
+}
+
+.conteiner .content .fourpic .picfour {
+    width: 342px;
+    height: 261px;
+    flex-shrink: 0;
+    background: #484848;
+}
+
+.conteiner .content .displaysecond {
+    width: 100%;
+    height: 550px;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 120px;
+}
+
+.conteiner .content .displaysecond .box {
+    width: 460px;
+    height: 385px;
+    /* border: 1px solid #000; */
+}
+
+.conteiner .content .displaysecond .box .box1 {
+    width: 460px;
+    height: 295px;
+    flex-shrink: 0;
+    background: #484848;
+}
+
+.conteiner .content .text1 {
+    width: 200px;
+    height: 50px;
+    /* border: 1px solid #000; */
+    margin-top: 200px;
+    margin-right: 80%;
+    position: absolute;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    top: 563px;
+}
+
+.conteiner .content .text1 p {
+    color: #000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.conteiner .content .displaysecond .box .box2 {
+    width: 460px;
+    height: 90px;
+    background-color: #ccc;
+}
+
+.conteiner .content .buttonNav {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid #000; */
+}
+
+.conteiner .content .buttonNav button {
+    width: 232px;
+    height: 60px;
+    /* background-color: #000; */
+    background-color: #000;
+}
+
+.conteiner .content .buttonNav button a {
+    font-size: 25px;
+    color: #FFF;
+}
+
+.conteiner .content .third {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.conteiner .content .third .display3 {
+    width: 48%;
+    height: 450px;
+    /* border: 1px solid #000; */
+    background-color: #484848;
+}
+
+.conteiner .content .displayten {
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    /* margin-top: 120px; */
+    /* position: absolute; */
+    top: 93%;
+    position: relative;
+    padding: 0;
+}
+
+.conteiner .content .displayten .box {
+    width: 460px;
+    height: 385px;
+    /* border: 1px solid #000; */
+}
+
+.conteiner .content .displayten .box .box1 {
+    width: 460px;
+    height: 295px;
+    flex-shrink: 0;
+    background: #484848;
+}
+
+.conteiner .content .displayten .box .box2 {
+    width: 460px;
+    height: 90px;
+    background-color: #ccc;
+}
+
+.conteiner .content .buttonNav2 {
+    width: 100%;
+    height: 225px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* border: 1px solid #000; */
+}
+
+.conteiner .content .buttonNav2 button {
+    width: 232px;
+    height: 60px;
+    /* background-color: #000; */
+    background-color: #000;
+}
+
+.conteiner .content .buttonNav2 button a {
+    font-size: 25px;
+    color: #FFF;
+}
+
+.conteiner .content .nodivv {
+    width: 100%;
+    height: 100px;
+}
+
+.conteiner .content .display5 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0 50px;
+    /* border: 1px solid #000; */
+}
+
+.conteiner .content .display5 .box {
+    width: 460px;
+    height: 385px;
+    /* border: 1px solid #000; */
+}
+
+.conteiner .content .display5 .box .box1 {
+    width: 460px;
+    height: 295px;
+    flex-shrink: 0;
+    background: #484848;
+}
+
+.conteiner .content .display5 .box .box2 {
+    width: 460px;
+    height: 90px;
+    background-color: #ccc;
+}
+
+.conteiner .content .displaythree {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.conteiner .content .displaythree .dthree {
+    width: 200px;
+    height: 65px;
+    position: absolute;
+    left: 50px;
+    top: 85%;
+}
+
+.conteiner .content .displaythree .dthree h1 {
+    color: #000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.conteiner .content .display5 .text1_0 {
+    width: 200px;
+    height: 65px;
+    position: absolute;
+    /* position: relative; */
+    top: 0;
+    margin-left: -80%;
+}
+
+.conteiner .content .display5 .text1_0 h1 {
+    color: #000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.conteiner .content .display5 .nondiv {
+    width: 100%;
+    height: 65px;
+}
+
+.conteiner .content .display6 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.conteiner .content .display6 .text6 {
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    padding: 0 115px;
+    /* border: 1px solid #000; */
+}
+
+.conteiner .content .display6 .text6 .h1 {
+    width: 200px;
+    height: 65px;
+    margin-top: 230px;
+}
+
+.conteiner .content .display6 .text6 .h1 h1 {
+    color: #000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.conteiner .content .display6 .texts {
+    width: 420px;
+    height: 150px;
+    border: 1px solid #000;
+    padding: 0 5px;
+}
+
+.conteiner .content .display6 .texts .number {
+    width: 100%;
+    height: 65px;
+    /* border: 1px solid #000; */
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.conteiner .content .display6 .texts .number h1 {
+    color: #000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.conteiner .content .display6 .texts .p {
+    width: 100%;
+    height: 75px;
+    /* border: 1px solid #000; */
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    text-align: justify;
+}
+
+.conteiner .content .display6 .texts .p p {
+    color: #000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.conteiner .content .text6 .buttonNav2 {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* border: 1px solid #000; */
+    margin-top: 20px;
+}
+
+.conteiner .content .text6 .buttonNav2 button {
+    width: 232px;
+    height: 60px;
+    /* background-color: #000; */
+    background-color: #000;
+}
+
+.conteiner .content .text6 .buttonNav2 button a {
+    font-size: 25px;
+    color: #FFF;
+}
+
+.conteiner .content .nonediv {
+    width: 100%;
+    height: 200px;
+}
+
+.conteiner .content .display7 {
+    width: 100%;
+    height: 700px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #000;
+}
+
+.conteiner .content .display7 .disp7 {
+    width: 200px;
+    height: 65px;
+    position: absolute;
+    left: 70px;
+    top: 70px;
+}
+
+.conteiner .content .display7 .disp7 h1 {
+    color: #FFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.conteiner .content .displayseven {
+    width: 100%;
+    height: 550px;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 120px;
+}
+
+.conteiner .content .displayseven .box {
+    width: 460px;
+    height: 385px;
+    /* border: 1px solid #000; */
+}
+
+.conteiner .content .displayseven .box .box1 {
+    width: 460px;
+    height: 295px;
+    flex-shrink: 0;
+    background: #636363;
+}
+
+.conteiner .content .displayseven .box .box2 {
+    width: 460px;
+    height: 90px;
+    background-color: #FFF;
+}
+
+.conteiner .content .display8 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner .content .display8 .left {
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+
+}
+
+.conteiner .content .display8 .left .text8 {
+    width: 200px;
+    height: 65px;
+    /* border: 1px solid #000; */
+    margin-left: 40px;
+}
+
+.conteiner .content .display8 .left .text8 h1 {
+    color: #000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.conteiner .content .display8 .left .rectangle {
+    width: 475px;
+    height: 70px;
+    background-color: #ccc;
+    margin-left: 40px;
+}
+
+.conteiner .content .display8 .left .button8 {
+    width: 475px;
+    height: 60px;
+    background-color: #000000;
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner .content .display8 .left .button8 p {
+    width: 127.207px;
+    color: #FFF;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: #000;
+}
+
+.conteiner .content .display8 .right {
+    width: 50%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner .content .display8 .right .img {
+    width: 303.381px;
+    height: 261.954px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.conteiner .content .display8 .right .img img {
+    width: 303.381px;
+    height: 261.954px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}

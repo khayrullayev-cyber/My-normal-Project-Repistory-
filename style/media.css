@@ -1,0 +1,9 @@
+@media screen and (max-width: 1070px){
+    .conteiner .content .text p {
+        font-size: 47px;
+    }
+}
+
+@media screen and (max-width: 1050) {
+    .conteiner .content     
+}
